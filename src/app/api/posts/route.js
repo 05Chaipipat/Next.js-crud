@@ -1,7 +1,7 @@
 import { get } from "mongoose";
 
-import { connectMongoDB } from "../../../../../lib/mongodb";
-import Post from "../../../../../models/post";
+import { connectMongoDB } from "../../../../mongodb";
+import Post from "../../../../post";
 
 import { NextResponse } from "next/server";
 
